@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,22 +10,31 @@
 
 <body>
 
-<div class="card">
-  
-  <div class="card-header">
-    <span></span>
-    <span></span>
-  </div>
-  
-  <div class="container">
+  <div class="card">
+
+    <div class="card-header">
+      <span></span>
+      <span></span>
+    </div>
+
+    <div class="container">
+    </div>
+
+    <span class="temp"></span>
+
+    <div class="temp-scale">
+      <span>C</span>
+    </div>
   </div>
 
-  <span class="temp"></span>
-
-  <div class="temp-scale">
-    <span>C</span>
+  <!-- Modal para mostrar imágenes -->
+  <div id="imageModal" class="modal">
+    <span class="close-modal">&times;</span>
+    <h2 id="modalTitle" class="modal-title"></h2>
+    <img id="modalImage" class="modal-content" alt="Imagen ampliada">
   </div>
-</div>
-<script src="script.js"></script>
+
+  <script src="script.js"></script>
 </body>
+
 </html>
